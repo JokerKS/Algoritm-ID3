@@ -79,7 +79,7 @@ Library for ID3 algorithm
     1.Lzawienie:normalne-->2.Astygmatyzm:tak-->3.Wada_wzroku:krotkowidz is twarde-count:3
     1.Lzawienie:zmniejszone is brak-count:10
     
-    Each such entry is a branch of the tree from the root to end branches.<br>
-    The numbers next to the attributes representing the nodes in the tree.<br> 
-    A “count” - the number of rows that match that rule.<br> 
-    Therefore, from these data, you can easily build a tree.<br>
+  Each such entry is a branch of the tree from the root to end branches.<br>
+  The numbers next to the attributes representing the nodes in the tree.<br> 
+  A “count” - the number of rows that match that rule.<br> 
+  Therefore, from these data, you can easily build a tree.<br>
