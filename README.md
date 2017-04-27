@@ -8,6 +8,8 @@ Library for ID3 algorithm
 2. Add the list of attributes as List<string><br>
   x.Attr = your List of attributes
 3. Add the list of rows as List<Dictionary<string, string>><br>
+  Dictionary<key, value> - key:attribute; value:value of the attribute in this row<br>
+  And so you add to Dictionary the whole row<br><br>
   x.Rows = your List of rows
 4. Сall the function StartAlgorythm()<br>
   x.StartAlgorythm();
