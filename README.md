@@ -10,10 +10,12 @@ Library for ID3 algorithm
 3. Add the list of rows as List<Dictionary<string, string>><br>
   Dictionary<key, value> - key:attribute; value:value of the attribute in this row<br>
   And so you add to Dictionary the whole row<br><br>
-  x.Rows = your List of rows
+  x.Rows = your List of rows <br>
+    or<br>
+  x.Rows.Add(Dictionary<string, string>);
 4. Сall the function StartAlgorythm()<br>
   x.StartAlgorythm();
-5. Take the result<br>
+5. Take the result string<br>
   string result = x.Result;
   
 # Example:
