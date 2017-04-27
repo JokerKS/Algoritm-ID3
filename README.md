@@ -3,15 +3,15 @@ Library for ID3 algorithm
 
 
 # Using the library
-1. Create onject Data
+1. Create object Data<br>
   Data x = new Data();
-2. Add the list of attributes as List<string>
+2. Add the list of attributes as List<string><br>
   x.Attr = your List of attributes
-3. Add the list of rows as List<Dictionary<string, string>>
+3. Add the list of rows as List<Dictionary<string, string>><br>
   x.Rows = your List of rows
-4. Сall the function StartAlgorythm()
+4. Сall the function StartAlgorythm()<br>
   x.StartAlgorythm();
-5. Take the result
+5. Take the result<br>
   string result = x.Result;
   
 # Example:
