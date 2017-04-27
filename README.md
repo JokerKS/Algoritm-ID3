@@ -37,3 +37,44 @@ Library for ID3 algorithm
     
     x.StartAlgorythm();
     string result = x.Result;
+    
+# Data to test
+    [ Wiek
+    Wada_wzroku
+    Astygmatyzm
+    Lzawienie
+    SOCZEWKI ]
+
+  mlody       krotkowidz  nie         normalne    miekkie     
+  mlody       dalekowidz  tak         normalne    twarde      
+  mlody       dalekowidz  nie         zmniejszone brak        
+  mlody       krotkowidz  tak         zmniejszone brak        
+  prestarczy  krotkowidz  tak         zmniejszone brak        
+  prestarczy  krotkowidz  nie         normalne    miekkie     
+  mlody       krotkowidz  tak         normalne    twarde      
+  starczy     dalekowidz  tak         zmniejszone brak        
+  prestarczy  dalekowidz  nie         zmniejszone brak        
+  prestarczy  dalekowidz  tak         zmniejszone brak        
+  starczy     krotkowidz  tak         normalne    twarde      
+  prestarczy  dalekowidz  nie         normalne    miekkie     
+  starczy     dalekowidz  tak         normalne    brak        
+  starczy     krotkowidz  tak         zmniejszone brak        
+  starczy     krotkowidz  nie         normalne    brak        
+  prestarczy  krotkowidz  tak         normalne    twarde      
+  mlody       krotkowidz  nie         zmniejszone brak        
+  starczy     krotkowidz  nie         zmniejszone brak        
+  starczy     dalekowidz  nie         zmniejszone brak        
+  mlody       dalekowidz  nie         normalne    miekkie     
+  starczy     dalekowidz  nie         normalne    miekkie     
+  prestarczy  dalekowidz  tak         normalne    brak    
+  
+ # Example of result: 
+    1.Lzawienie:normalne-->2.Astygmatyzm:nie-->3.Wiek:mlody is miekkie-count:2
+    1.Lzawienie:normalne-->2.Astygmatyzm:nie-->3.Wiek:prestarczy is miekkie-count:2
+    1.Lzawienie:normalne-->2.Astygmatyzm:nie-->3.Wiek:starczy-->4.Wada_wzroku:krotkowidz is brak-count:1
+    1.Lzawienie:normalne-->2.Astygmatyzm:nie-->3.Wiek:starczy-->4.Wada_wzroku:dalekowidz is miekkie-count:1
+    1.Lzawienie:normalne-->2.Astygmatyzm:tak-->3.Wada_wzroku:dalekowidz-->4.Wiek:mlody is twarde-count:1
+    1.Lzawienie:normalne-->2.Astygmatyzm:tak-->3.Wada_wzroku:dalekowidz-->4.Wiek:starczy is brak-count:1
+    1.Lzawienie:normalne-->2.Astygmatyzm:tak-->3.Wada_wzroku:dalekowidz-->4.Wiek:prestarczy is brak-count:1
+    1.Lzawienie:normalne-->2.Astygmatyzm:tak-->3.Wada_wzroku:krotkowidz is twarde-count:3
+    1.Lzawienie:zmniejszone is brak-count:10
