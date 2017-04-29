@@ -13,7 +13,7 @@ Library for ID3 algorithm
   x.Rows = your List of rows <br>
     or<br>
   x.Rows.Add(Dictionary<string, string>);
-4. Сall the function StartAlgorythm()<br>
+4. Сall the function StartAlgorithmID3()<br>
   x.StartAlgorithmID3();
 5. Take the result string<br>
   string result = x.Result;
