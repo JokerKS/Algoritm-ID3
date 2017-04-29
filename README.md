@@ -14,7 +14,7 @@ Library for ID3 algorithm
     or<br>
   x.Rows.Add(Dictionary<string, string>);
 4. Сall the function StartAlgorythm()<br>
-  x.StartAlgorythm();
+  x.StartAlgorithmID3();
 5. Take the result string<br>
   string result = x.Result;
   
@@ -35,7 +35,7 @@ Library for ID3 algorithm
     x.Rows.Add(row2);
     ...
     
-    x.StartAlgorythm();
+    x.StartAlgorithmID3();
     string result = x.Result;
     
 # Data to test
